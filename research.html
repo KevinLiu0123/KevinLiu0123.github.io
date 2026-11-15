@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<!--
+    Strata by HTML5 UP
+    html5up.net | @ajlkn
+-->
+<html>
+    <head>
+        <title>Research | Hong-Wen Liu</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+        <nav class="navbar">
+            <div class="nav-left"><a href="index.html" style="border-bottom: none; color: inherit;">Liu, Hong Wen</a></div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="research.html">Research</a>
+                <a href="talks.html">Talks</a>
+                <a href="cv.pdf" target="_blank">CV</a>
+                <a href="chinese.html">中文</a>
+                <a href="acknowledgments.html">Acknowledgments</a>
+            </div>
+        </nav>
+
+        <!-- Header (左側固定個人資訊欄，與首頁一致) -->
+        <header id="header">
+            <div class="inner">
+                <a href="index.html" class="image avatar"><img src="images/Selfie.JPG" alt="Hong-Wen Liu" /></a>
+                <h1><strong>Liu, Hong Wen</strong><br />
+                M.S. Student in Physics<br />
+                National Tsing Hua University</h1>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Research Overview -->
+            <section id="research-intro">
+                <header class="major">
+                    <h2>Research</h2>
+                    <p class="subline">Computational Astrophysics, Galaxy Cluster Hydrodynamics, and Cosmological Neutrino Physics.</p>
+                </header>
+                <p>My research focuses on bridging theoretical astrophysics and observational data through high-performance numerical simulations and Bayesian statistical inference. Currently, I study feedback-driven gas dynamics in merging galaxy clusters and cosmological parameter constraints on neutrino masses.</p>
+            </section>
+
+            <!-- Project 1: Galaxy Cluster Mergers & AGN Feedback -->
+            <section id="cluster-agn">
+                <h3>1. Heating and Cooling Balance in Merging Cool-Core Galaxy Clusters</h3>
+                <p><em>Institute of Astronomy, NTHU (Oct 2024 – Present) | Advisor: Prof. Hsiang-Yi Karen Yang</em></p>
+
+                <span class="image fit"><img src="images/cluster_merger.png" alt="GAMER-2 Simulation of Merging Cool-Core Galaxy Cluster" /></span>
+
+                <p>Cool-core galaxy clusters exhibit short central radiative cooling times, requiring continuous heating mechanisms to prevent runaway cooling flows. Using 3D adaptive-mesh-refinement (AMR) hydrodynamic simulations with <strong>GAMER-2</strong>, I investigate the survival of cool cores and thermal balance during cluster mergers (modeled after Perseus- and Abell 1795-like systems) under self-regulated AGN feedback.</p>
+                <ul>
+                    <li><strong>Helmholtz Velocity Decomposition:</strong> Quantified compressive and solenoidal turbulent energy dissipation across merger parameter suites (varying AGN jet power and merger angular momentum).</li>
+                    <li><strong>Key Findings:</strong> Demonstrated that merger-driven turbulence alone dissipates too inefficiently to offset radiative cooling, whereas self-regulated AGN feedback sustains intense core turbulence and preserves thermal equilibrium.</li>
+                </ul>
+                <ul class="actions small">
+                    <li><a href="poster_tps2026.pdf" target="_blank" class="button primary small icon solid fa-file-pdf">View TPS 2026 Poster</a></li>
+                </ul>
+            </section>
+
+            <!-- Project 2: Cosmological Neutrino Mass & Dark Energy -->
+            <section id="neutrino-cosmology">
+                <h3>2. Cosmological Neutrino Mass Bounds and Dynamical Dark Energy</h3>
+                <p><em>Institute of Astronomy &amp; Astrophysics, Academia Sinica (Jul 2025 – Feb 2026) | Advisor: Dr. Shouvik Roy Choudhury</em></p>
+
+                <span class="image fit"><img src="images/neutrino_mcmc.jpg" alt="Cosmological Neutrino Mass Posterior Contours" /></span>
+
+                <p>Cosmological surveys provide stringent probes of the total neutrino mass (&Sigma;<i>m</i><sub>&nu;</sub>$\sum m_\nu$), though parameter constraints remain sensitive to the underlying dark energy equation of state. I performed Bayesian MCMC parameter inference using <strong>Cobaya</strong> to explore degeneracies between neutrino physics and late-time cosmic acceleration.</p>
+                <ul>
+                    <li><strong>Multi-Probe Analysis:</strong> Combined <strong>DESI BAO</strong>, <strong>Planck CMB</strong>, and <strong>Type Ia supernovae</strong> datasets to constrain &Sigma;<i>m</i><sub>&nu;</sub> within &Lambda;CDM and dynamical dark energy (<i>w</i><sub>0</sub><i>w</i><sub>a</sub>CDM) frameworks.</li>
+                    <li><strong>Key Findings:</strong> Evaluated how dynamical dark energy parameterizations relax or shift upper bounds on total neutrino mass relative to standard &Lambda;CDM.</li>
+                </ul>
+            </section>
+
+            <!-- Project 3: Geophysical / Astrophysical Fluid Dynamics -->
+            <section id="gfd-vortex">
+                <h3>3. Shallow-Water Modeling of Jovian Vortex Dynamics</h3>
+                <p><em>Computational Fluid Dynamics Project | Department of Physics, NTHU</em></p>
+
+                <span class="image fit"><img src="images/grs_vortex_evolution.gif" alt="1.5-Layer Shallow-Water Simulation of Jovian Vortex Merger" /></span>
+
+                <p>Simulated the long-term stability, zonal jet interactions, and vortex merger dynamics of Jupiter's Great Red Spot using a 1.5-layer shallow-water fluid model, exploring potential vorticity conservation in planetary atmospheres.</p>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="icons">
+                    <li><a href="https://github.com/kevinliu0123" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="mailto:jcmlw17123@gapp.nthu.edu.tw" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Hong-Wen Liu</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
